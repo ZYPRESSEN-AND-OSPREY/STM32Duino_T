@@ -40,7 +40,6 @@ void S1(){
      
 }
 Thread serial2 = Thread();
-Thread serial2 = Thread();
 void S2(){
     if (Serial.available()) {
         unsigned char temp = Serial.read();
